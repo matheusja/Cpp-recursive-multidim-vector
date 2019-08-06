@@ -7,7 +7,7 @@ Don't forget to include:
 
 ```#include "recursive_multidim_vector.hpp"```
 
-```recursive_collection::wrapper<Type, Integer >= 0(std::size_t), Collection<Type, allocator>>
+```recursive_collection::wrapper<Type, Integer >= 0(std::size_t), Collection<Type, allocator>>```
 
 ```recursive_collection::wrapper<T, N, C>::Type is C<C<C<...<T>>>; (There are N-dimensions)```
 
